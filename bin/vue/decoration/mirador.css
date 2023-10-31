@@ -1,0 +1,157 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 26, 2018, 4:33:58 PM
+    Author     : Admin
+*/
+#fenetre
+{
+    -fx-background-color:#fff;
+}
+#entete
+{
+    -fx-background-color: white;
+}
+#entete Label
+{
+    -fx-text-fill : #333333;    
+}
+#menu
+{
+    -fx-background-color: #34495e;
+}
+
+#menu Button
+{
+    -fx-background-color: #34495e;
+    -fx-border-radius: 0px;
+    -fx-border-insets: 0px 0px 0px 0px;
+    -fx-cursor:hand;
+}
+
+#menu Button:hover{
+    -fx-background-color: #333333;
+    //-fx-border-width: 0px 0px 0px 3px;
+    -fx-border-color: white;
+    -fx-border-style: solid;
+}
+#menu Button:pressed
+{
+    -fx-background-color: #cccccc;   
+}
+
+#espace
+{
+    -fx-background-color:#f2f2f2; //  gainsboro
+}
+#boite-nouvelles
+{
+    -fx-hgap:1.5em;
+    -fx-vgap:1.5em;    
+}
+#boite-nouvelles > Pane
+{
+    -fx-background-color:#244b53;
+    -fx-background-radius:1em;
+    -fx-margin:1em;
+}
+#boite-nouvelles > Pane > Pane
+{
+    -fx-background-color:#94c7d0;
+}
+#boite-nouvelles > Pane > Label.apercu-nouvelle-date 
+{
+    -fx-text-fill:#94c7d0;
+}
+
+#grille-temperatures Pane
+{
+    -fx-background-color:#c4430b;    
+}
+#liste-statistiques HBox,
+#liste-statistiques Pane
+{
+    -fx-background-color:#f26223;        
+}
+#liste-statistiques HBox Label,
+#liste-statistiques Pane Label
+{
+    -fx-text-fill:white;
+    -fx-font-weight:bold;
+    -fx-min-height:100%;
+    -fx-font-size:30px;
+}
+
+#liste-statistiques HBox Label.valeur
+{
+    -fx-background-color:white;        
+    -fx-text-fill:#f26223;    
+    -fx-background-radius:10;
+}
+
+#liste-astronautes HBox,
+#liste-passages HBox
+{
+    -fx-background-color:#6aa84f;        
+}
+#liste-astronautes HBox Label,
+#liste-passages HBox Label
+{
+    -fx-text-fill:white;
+    -fx-font-weight:bold;
+    -fx-min-height:100%;
+    -fx-font-size:30px;
+}
+#liste-astronautes HBox  Label.valeur,
+#liste-passages HBox  Label.valeur
+{
+    -fx-background-color:white;        
+    -fx-text-fill:#6aa84f;
+    -fx-font-weight:bold;
+    -fx-min-height:100%;
+    -fx-font-size:30px;
+}
+
+#liste-gros-meteores HBox
+{
+    -fx-background-color:#6aa84f;        
+}
+#liste-gros-meteores HBox Label
+{
+    -fx-text-fill:white;
+    -fx-font-weight:bold;
+    -fx-min-height:100%;
+    -fx-font-size:30px;
+}
+#liste-gros-meteores HBox Label.valeur
+{
+    -fx-background-color:white;        
+    -fx-text-fill:#6aa84f;
+    -fx-font-weight:bold;
+    -fx-min-height:100%;
+    -fx-font-size:30px;
+}
+
+
+#liste-cryptomonnaies HBox
+{
+    -fx-background-color:#6aa84f;        
+}
+#liste-cryptomonnaies HBox Label
+{
+    -fx-text-fill:white;
+    -fx-font-weight:bold;
+    -fx-min-height:100%;
+    -fx-font-size:30px;
+}
+#liste-cryptomonnaies HBox Label.valeur
+{
+    -fx-background-color:white;        
+    -fx-text-fill:#6aa84f;
+    -fx-font-weight:bold;
+    -fx-min-height:100%;
+    -fx-font-size:30px;
+}

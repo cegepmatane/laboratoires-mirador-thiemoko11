@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.SVGPath?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="fenetre" prefHeight="743.0" prefWidth="1294.0" stylesheets="@decoration/mirador.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox id="menu" layoutX="-7.0" layoutY="92.0" prefHeight="651.0" prefWidth="83.0" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="92.0">
+         <children>
+            <Button id="menu-accueil" layoutX="10.0" layoutY="161.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="104.0">
+               <graphic>
+                  <ImageView fitHeight="35.0" fitWidth="35.0">
+                     <image>
+                        <Image url="@decoration/menu/maison.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button id="menu-amis" mnemonicParsing="false" prefHeight="76.0" prefWidth="91.0">
+               <graphic>
+                  <ImageView fitHeight="40.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@decoration/menu/amis.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button id="menu-numerique" mnemonicParsing="false" prefHeight="75.0" prefWidth="105.0">
+               <graphic>
+                  <ImageView fitHeight="37.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@decoration/menu/numerique.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button id="menu-message" mnemonicParsing="false" prefHeight="77.0" prefWidth="104.0">
+               <graphic>
+                  <ImageView fitHeight="25.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@decoration/menu/communication.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button id="menu-date" layoutX="10.0" layoutY="238.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="104.0">
+               <graphic>
+                  <ImageView id="menu-date" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@decoration/menu/date.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button id="menu-argent" layoutX="10.0" layoutY="315.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="104.0">
+               <graphic>
+                  <ImageView id="menu-argent" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@decoration/menu/argent.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button id="menu-chat" layoutX="10.0" layoutY="392.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="104.0">
+               <graphic>
+                  <ImageView id="menu-argent" fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@decoration/menu/chat.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+      </VBox>
+      <AnchorPane id="espace" layoutX="76.0" layoutY="92.0" prefHeight="651.0" prefWidth="1218.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="76.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="92.0">
+         <children>
+            <Pane layoutX="54.0" layoutY="54.0" prefHeight="552.0" prefWidth="1092.0">
+               <children>
+                  <HBox layoutY="70.0" prefHeight="482.0" prefWidth="1092.0">
+                     <children>
+                        <Pane prefHeight="552.0" prefWidth="707.0">
+                           <children>
+                              <VBox id="liste-exoplanetes" prefHeight="476.0" prefWidth="706.0" />
+                           </children>
+                        </Pane>
+                        <Pane prefHeight="457.0" prefWidth="388.0">
+                           <children>
+                              <VBox id="liste-statistiques" layoutX="8.0" layoutY="17.0" prefHeight="465.0" prefWidth="375.0" spacing="10.0">
+                                 <children>
+                                    <HBox prefHeight="100.0" prefWidth="346.0">
+                                       <children>
+                                          <Label prefHeight="105.0" prefWidth="174.0" text="Max">
+                                             <padding>
+                                                <Insets left="10.0" />
+                                             </padding></Label>
+                                          <Label id="valeur-maximum" fx:id="valeurMaximum" prefHeight="64.0" prefWidth="174.0" styleClass="valeur" text="100">
+                                             <HBox.margin>
+                                                <Insets top="10.0" />
+                                             </HBox.margin>
+                                             <padding>
+                                                <Insets left="10.0" />
+                                             </padding>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="100.0" prefWidth="200.0">
+                                       <children>
+                                          <Label prefHeight="112.0" prefWidth="173.0" text="Min">
+                                             <padding>
+                                                <Insets left="10.0" />
+                                             </padding></Label>
+                                          <Label id="valeur-minimum" fx:id="valeurMinimum" prefHeight="64.0" prefWidth="174.0" styleClass="valeur" text="100">
+                                             <HBox.margin>
+                                                <Insets top="10.0" />
+                                             </HBox.margin>
+                                             <padding>
+                                                <Insets left="10.0" />
+                                             </padding>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                    <HBox prefHeight="100.0" prefWidth="200.0">
+                                       <children>
+                                          <Label prefHeight="112.0" prefWidth="173.0" text="Moyenne">
+                                             <padding>
+                                                <Insets left="10.0" />
+                                             </padding>
+                                          </Label>
+                                          <Label id="valeur-moyenne" fx:id="valeurMoyenne" prefHeight="64.0" prefWidth="174.0" styleClass="valeur" text="100">
+                                             <HBox.margin>
+                                                <Insets top="10.0" />
+                                             </HBox.margin>
+                                             <padding>
+                                                <Insets left="10.0" />
+                                             </padding>
+                                          </Label>
+                                       </children>
+                                    </HBox>
+                                 </children>
+                              </VBox>
+                           </children>
+                        </Pane>
+                     </children>
+                  </HBox>
+                  <Label layoutX="3.0" layoutY="-1.0" prefHeight="69.0" prefWidth="691.0" text="Liste des meilleures exoplanetes" textFill="#f26223">
+                     <font>
+                        <Font size="42.0" />
+                     </font>
+                  </Label>
+               </children>
+            </Pane>
+            <SVGPath id="curseur" content="M 5,50 97.5,5 97.5,95 Z" fill="GAINSBORO" layoutX="-58.0" layoutY="146.0" scaleX="0.15" scaleY="0.15" />
+         </children>
+      </AnchorPane>
+      <Pane id="entete" layoutX="-3.0" prefHeight="92.0" prefWidth="1294.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <children>
+            <Label layoutX="536.0" layoutY="12.0" text="MIRADOR" textFill="#fff7f7">
+               <font>
+                  <Font name="Josefin Sans Thin" size="48.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="25.0" fitWidth="25.0" layoutX="23.0" layoutY="35.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@decoration/liste-bleue.png" />
+               </image>
+            </ImageView>
+         </children>
+         <effect>
+            <DropShadow color="#7c7979" height="50.0" radius="24.5" width="50.0" />
+         </effect>
+      </Pane>
+   </children>
+</AnchorPane>
