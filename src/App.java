@@ -20,7 +20,7 @@ public class App {
 		//Controleur.choisirVuePrincipale(VueVoiture.class);
 		//Controleur.choisirVuePrincipale(VuePokemon.class);
 		//Controleur.choisirVuePrincipale(VueFilm.class);
-		Controleur.choisirVuePrincipale(VueCountries.class);
+		Controleur.choisirVuePrincipale(VueCrypto.class);
 		Fenetre.launch(Fenetre.class, parametres);
 		
 	}

@@ -103,37 +103,12 @@
                                  <children>
                                     <HBox prefHeight="92.0" prefWidth="538.0">
                                        <children>
-                                          <Label id="btc" fx:id="btc" prefHeight="87.0" prefWidth="207.0" text="Bitcoin">
+                                          <Label prefHeight="87.0" prefWidth="207.0" text="Bitcoin BTC">
                                              <padding>
                                                 <Insets left="10.0" />
                                              </padding>
                                           </Label>
-                                          <Label id="valeur" fx:id="valeur" prefHeight="65.0" prefWidth="304.0" style="-fx-background-radius: 10;" styleClass="valeur" text="256$ USD">
-                                             <HBox.margin>
-                                                <Insets top="10.0" />
-                                             </HBox.margin>
-                                             <padding>
-                                                <Insets left="10.0" />
-                                             </padding>
-                                          </Label>
-                                          <Label prefHeight="65.0" prefWidth="304.0" style="-fx-background-radius: 10;" styleClass="valeur" text="256$ USD">
-                                             <padding>
-                                                <Insets left="10.0" />
-                                             </padding>
-                                             <HBox.margin>
-                                                <Insets left="10.0" top="10.0" />
-                                             </HBox.margin>
-                                          </Label>
-                                       </children>
-                                    </HBox>
-                                    <HBox prefHeight="92.0" prefWidth="538.0">
-                                       <children>
-                                          <Label id="eth" fx:id="eth" prefHeight="87.0" prefWidth="207.0" text="Bitcoin">
-                                             <padding>
-                                                <Insets left="10.0" />
-                                             </padding>
-                                          </Label>
-                                          <Label prefHeight="65.0" prefWidth="304.0" style="-fx-background-radius: 10;" styleClass="valeur" text="256$ USD">
+                                          <Label id="nom" fx:id="valeur" prefHeight="65.0" prefWidth="304.0" style="-fx-background-radius: 10;" styleClass="valeur">
                                              <HBox.margin>
                                                 <Insets top="10.0" />
                                              </HBox.margin>
@@ -145,12 +120,12 @@
                                     </HBox>
                                     <HBox prefHeight="92.0" prefWidth="538.0">
                                        <children>
-                                          <Label id="bat" fx:id="bat" prefHeight="87.0" prefWidth="207.0" text="Bitcoin">
+                                          <Label id="eth" fx:id="eth" prefHeight="87.0" prefWidth="207.0" text="Bitcoin ETH">
                                              <padding>
                                                 <Insets left="10.0" />
                                              </padding>
                                           </Label>
-                                          <Label prefHeight="65.0" prefWidth="304.0" style="-fx-background-radius: 10;" styleClass="valeur" text="256$ USD">
+                                          <Label id="nom" fx:id="nom" prefHeight="65.0" prefWidth="304.0" style="-fx-background-radius: 10;" styleClass="valeur">
                                              <HBox.margin>
                                                 <Insets top="10.0" />
                                              </HBox.margin>
@@ -162,29 +137,12 @@
                                     </HBox>
                                     <HBox prefHeight="92.0" prefWidth="538.0">
                                        <children>
-                                          <Label prefHeight="87.0" prefWidth="207.0" text="Bitcoin">
+                                          <Label prefHeight="87.0" prefWidth="207.0" text="Bitcoin CAD">
                                              <padding>
                                                 <Insets left="10.0" />
                                              </padding>
                                           </Label>
-                                          <Label prefHeight="65.0" prefWidth="304.0" style="-fx-background-radius: 10;" styleClass="valeur" text="256$ USD">
-                                             <HBox.margin>
-                                                <Insets top="10.0" />
-                                             </HBox.margin>
-                                             <padding>
-                                                <Insets left="10.0" />
-                                             </padding>
-                                          </Label>
-                                       </children>
-                                    </HBox>
-                                    <HBox prefHeight="92.0" prefWidth="538.0">
-                                       <children>
-                                          <Label prefHeight="87.0" prefWidth="207.0" text="Bitcoin">
-                                             <padding>
-                                                <Insets left="10.0" />
-                                             </padding>
-                                          </Label>
-                                          <Label prefHeight="65.0" prefWidth="304.0" style="-fx-background-radius: 10;" styleClass="valeur" text="256$ USD">
+                                          <Label id="nom" fx:id="nom" prefHeight="65.0" prefWidth="304.0" style="-fx-background-radius: 10;" styleClass="valeur">
                                              <HBox.margin>
                                                 <Insets top="10.0" />
                                              </HBox.margin>

@@ -58,7 +58,10 @@ public class CryptoDAO {
 				System.out.println("BAT  to CAD : " + valeurBATtoCADTexte);
 				
 				crypto.setNom(valeurBATtoCADTexte);
+				crypto.setNom(valeurETHtoCADTexte);
+				crypto.setNom(valeurBATtoCADTexte);
 				crypto.setValeur(0);
+				
 				
 			}
 			catch(Exception e) 
